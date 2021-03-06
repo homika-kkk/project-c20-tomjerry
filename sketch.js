@@ -49,13 +49,5 @@ function draw() {
 
 function keyPressed(){
 
-    if(keyCode === LEFT_ARROW){
-        tom.velocityX = -5; 
-        tom.addAnimation("tomRunning", tomImg2);
-        tom.changeAnimation("tomRunning");
-        
-        jerry.addAnimation("jerryTeasing", jerryImg2);
-        jerry.frameDelay = 25;
-        jerry.changeAnimation("jerryTeasing");
-    }
+   
 }
